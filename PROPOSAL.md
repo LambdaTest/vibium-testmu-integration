@@ -53,17 +53,6 @@ the W3C WebDriver BiDi standard we already serve. We would like it to work well 
 grid, and we would like the mechanism to be one **any** grid can implement — not a
 TestMu AI specific fork.
 
-### Current state
-
-We have this working. A vibium CLI on macOS driving Chrome 150 on a Windows 11 cloud VM,
-with roughly 60 commands verified — navigation, all nine `find` forms, form interaction,
-element state, waits, emulation, frames, cookies, storage, multi-page, screenshots and PDF
-capture. Details in the [appendix](#appendix-what-we-verified).
-
-All of it is handled inside the grid — there is no client-side component. One part of the
-mechanism, described in [§4.2](#42-the-sessionnew-problem), works around a vibium behaviour
-rather than with it, and that is the piece we would most like your view on.
-
 ---
 
 ## 2. Design goals
