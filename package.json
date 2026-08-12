@@ -1,0 +1,8 @@
+{
+  "name": "vibium-testmu-integration",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Proposal for native Vibium support on the TestMu AI cloud grid",
+  "license": "Apache-2.0"
+}
