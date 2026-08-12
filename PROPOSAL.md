@@ -42,7 +42,7 @@ changes to the user's scripts.
 Vibium is built for AI agents, and ships an MCP server so agents can drive a browser
 directly. Today an agent gets **one** browser — whatever runs on the machine hosting the
 daemon. Cloud grid support turns that into thousands of browser/OS combinations running in
-parallel, which is a capability agents cannot get locally at any price.
+parallel.
 
 
 ### Why this matters to us
